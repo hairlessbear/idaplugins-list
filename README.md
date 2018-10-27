@@ -10,39 +10,24 @@ I'll be organizing the plugins over time. Please submit PRs if you have any othe
 
 # Plugins
 
-* [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files
-
-* [ActionScript 3](https://www.hex-rays.com/contests/2018/index.shtml): An ActionScript 3 processor module and Flash debugger plugin.
-
-* [Adobe Flash disassembler](https://hex-rays.com/contests/2009/SWF/ReadMe.txt): The 2 plugins present in this archive will enable IDA to parse SWF files, load all SWF tags as segments for fast search and retrieval, parse all tags that can potentially contain ActionScript2 code, discover all such code(a dedicated processor module has been written for it) and even name the event functions acording to event handled in it (eg. OnInitialize). [Download](https://hex-rays.com/contests/2009/SWF/swf.zip)
-
-* [alleycat](https://github.com/devttys0/ida/tree/master/plugins/alleycat): 
-  *  Finds paths to a given code block inside a function
-  *  Finds paths between two or more functions
-  *  Generates interactive call graphs
-  *  Fully scriptable
-
-* [Amnesia](https://github.com/duo-labs/idapython): Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions.
-
-* [Android Debugging](https://github.com/techbliss/ADB_Helper_QT_Super_version): This version have both support for native arm debugging via usb and sdk ADV manager.
-
-* [Android Scripts Collection](https://github.com/strazzere/android-scripts): Collection of Android reverse engineering scripts that make my life easier
-
-* [AutoRE](https://github.com/a1ext/auto_re): Auto-renaming plugin with tagging support.
-
-* [BinAuthor](https://github.com/g4hsean/BinAuthor): Match an author to an unknown binary.
-
-* [BinCAT](https://github.com/airbus-seclab/bincat): BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA.
-
-* [BinClone](https://github.com/BinSigma/BinClone): BinClone: detecting code clones in malware [SERE 2014]
-
-* [BinNavi](https://github.com/google/binnavi): BinNavi is a binary analysis IDE - an environment that allows users to inspect, navigate, edit, and annotate control-flow-graphs of disassembled code, do the same for the callgraph of the executable, collect and combine execution traces, and generally keep track of analysis results among a group of analysts.
-
-* [Bin Sourcerer](https://github.com/BinSigma/BinSourcerer): BinSourcerer (a.k.a RE-Source Online) is an assembly to source code matching framework for binary auditing and malware analysis.
-
-* [Bootroom Analysis Library](https://github.com/digitalbond/IBAL): IBAL is the IDA Pro Bootrom Analysis Library, which contains a number of useful functions for analyzing embedded ROMs.
-
-* [Bosch ME7](https://github.com/AndyWhittaker/IDAProBoschMe7x): Siemens Bosch ME7.x Disassembler Helper for IDA Pro
+Plugin | Description | Last Updated
+------- | ------------ | ---------------
+[3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader) | IDA PRO Loader for 3DSX files | 3/1/2015
+[ActionScript 3](https://github.com/KasperskyLab/ActionScript3) | An ActionScript 3 processor module and Flash debugger plugin | 10/5/2018
+[Adobe Flash disassembler](https://hex-rays.com/contests/2009/SWF/ReadMe.txt) | The 2 plugins present in this archive will enable IDA to parse SWF files, load all SWF tags as segments for fast search and retrieval, parse all tags that can potentially contain ActionScript2 code, discover all such code(a dedicated processor module has been written for it) and even name the event functions acording to event handled in it (eg. OnInitialize). [Download](https://hex-rays.com/contests/2009/SWF/swf.zip) | 2009
+[alleycat](https://github.com/devttys0/ida/tree/master/plugins/alleycat) | Finds paths to a given code block inside a function; finds paths between two or more functions; generates interactive call graphs; fully scriptable | 8/17/2016
+[Amnesia](https://github.com/duo-labs/idapython/blob/master/amnesia.py) | Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions. | 11/19/2017
+[Android Debugging](https://github.com/techbliss/ADB_Helper_QT_Super_version) | This version have both support for native arm debugging via usb and sdk ADV manager. | 4/5/2015
+[Android Scripts Collection](https://github.com/strazzere/android-scripts/tree/master/IDA) | Collection of Android reverse engineering scripts by @strazzere | 1/17/2018
+[AutoRE](https://github.com/a1ext/auto_re) | Auto-renaming plugin with tagging support | 3/22/2018
+[BinAuthor](https://github.com/g4hsean/BinAuthor) | Match an author to an unknown binary. | 9/16/2016
+[BinCAT](https://github.com/airbus-seclab/bincat) | BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA. [Paper published at SSTIC 2017](https://www.sstic.org/media/SSTIC2017/SSTIC-actes/bincat_purrfecting_binary_static_analysis/SSTIC2017-Article-bincat_purrfecting_binary_static_analysis-biondi_rigo_zennou_mehrenberger.pdf) | 7/30/2018
+[BinClone](https://github.com/BinSigma/BinClone) | BinClone: detecting code clones in malware [SERE 2014] | 4/4/2015
+[BinDiff](https://www.zynamics.com/software.html) | BinDiff is a comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code. With BinDiff you can identify and isolate fixes for vulnerabilities in vendor-supplied patches. You can also port symbols and comments between disassemblies of multiple versions of the same binary or use BinDiff to gather evidence for code theft or patent infringement. | 2017
+[BinNavi](https://github.com/google/binnavi) | BinNavi is a binary analysis IDE - an environment that allows users to inspect, navigate, edit, and annotate control-flow-graphs of disassembled code, do the same for the callgraph of the executable, collect and combine execution traces, and generally keep track of analysis results among a group of analysts. | 9/27/2018
+[Bin Sourcerer](https://github.com/BinSigma/BinSourcerer) | BinSourcerer (a.k.a RE-Source Online) is an assembly to source code matching framework for binary auditing and malware analysis. | 2/4/2015
+[Bootroom Analysis Library](https://github.com/digitalbond/IBAL) | IBAL is the IDA Pro Bootrom Analysis Library, which contains a number of useful functions for analyzing embedded ROMs. | 2/12/2015
+[Bosch ME7](https://github.com/AndyWhittaker/IDAProBoschMe7x) | Siemens Bosch ME7.x Disassembler Helper for IDA Pro | 1/22/2018
 
 * [CGEN](https://github.com/yifanlu/cgen): CGEN with support for generating IDA Pro IDP modules.
 
@@ -362,7 +347,3 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 * [X86Emu](http://www.idabook.com/ida-x86emu/):  Its purpose is to allow a reverse engineer the chance to step through x86 code while reverse engineering a binary.  The plugin can help you step through any x86 binary from any platform. For Windows binaries, many common library calls are trapped and emulated by the emulator, allowing for a higher fidelity emulation. I find it particularly useful for stepping through obfuscated code as it automatically reorganizes an IDA disassembly based on actual code paths.
 
 * [YaCo](https://github.com/DGA-MI-SSI/YaCo) : Collaboration Plugin : when enabled, an unlimited number of users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control. It has been initially released at [SSTIC 2017](https://www.sstic.org/2017/presentation/YaCo/)
-
-* [Zynamics BinDiff](http://www.zynamics.com/bindiff.html): BinDiff is a comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
-
-## Commercial Plugins
