@@ -28,47 +28,23 @@ Plugin | Description | Last Updated
 [Bin Sourcerer](https://github.com/BinSigma/BinSourcerer) | BinSourcerer (a.k.a RE-Source Online) is an assembly to source code matching framework for binary auditing and malware analysis. | 2/4/2015
 [Bootroom Analysis Library](https://github.com/digitalbond/IBAL) | IBAL is the IDA Pro Bootrom Analysis Library, which contains a number of useful functions for analyzing embedded ROMs. | 2/12/2015
 [Bosch ME7](https://github.com/AndyWhittaker/IDAProBoschMe7x) | Siemens Bosch ME7.x Disassembler Helper for IDA Pro | 1/22/2018
-
-* [CGEN](https://github.com/yifanlu/cgen): CGEN with support for generating IDA Pro IDP modules.
-
-* [Class Informer](http://sourceforge.net/projects/classinformer/): Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type data. Places structure defs, names, labels, and comments to make more sense of class vftables ("Virtual Function Table") and make them read easier as an aid to reverse engineering. Creates a list window with found vftables for browsing.
-
-* [codatify](https://github.com/devttys0/ida/tree/master/plugins/codatify):   
-    * Defines ASCII strings that IDA's auto analysis missed
-    *  Defines functions/code that IDA's auto analysis missed
-    *  Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)
-
-* [c0demap](https://github.com/c0demap/codemap): Codemap is a binary analysis tool for "run-trace visualization" provided as IDA plugin.
-
-* [collabREate](http://www.idabook.com/collabreate/): collabREate is a plugin for IDA Pro that is designed to provide a collaborative reverse engineering capability for multiple IDA users working on the same binary file.
-
-* [Cortex M Firmware](https://github.com/duo-labs/idapython): The Cortex M Firmware module grooms an IDA Pro database containing firmware from an ARM Cortex M microcontroller. This module will annotate the firmware vector table, which contains a number of function pointers. This vector table annotation will cause IDA Pro to perform auto analysis against the functions these pointers point to. 
-
-* [Crowd Detox](https://github.com/CrowdStrike/CrowdDetox): The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.
-
-* [Dalvik Header](https://github.com/strazzere/dalvik-header-plugin): This is a simple Dalvik header plugin for IDA Pro
-
-* [Data Xref Counter](https://github.com/onethawt/idapyscripts): Enumerates all of the the x-references in a specific segment and counts the frequency of usage. The plugin displays the data in QtTableWidget and lets the user filter and sort the references. You can also export the data to a CSV file.
-
-* [Debugger](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro backed by the Unicorn Engine
-
-* [Diaphora](https://github.com/joxeankoret/diaphora): Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015.
-
-* [Docker IDA](http://blog.intezer.com/docker-ida/): Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts.
-
-* [DOXBox Debugger](https://github.com/wjp/idados): Eric Fry's IDA/DOSBox debugger plugin
-
-* [DrGadget](https://github.com/patois/DrGadget): This is an IDAPython plugin for the Interactive Disassembler for all your ROP experimentation needs.
-
-* [DriverBuddy](https://github.com/nccgroup/DriverBuddy): DriverBuddy is an IDA Python script to assist with the reverse engineering of Windows kernel drivers.
-
-* [Drop](https://github.com/Riscure/DROP-IDA-plugin): An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context.
-
-* [dwarfexport](https://github.com/ALSchwalm/dwarfexport): dwarfexport is an IDA Pro plugin that allows the user to export dwarf debug information. This can then be imported in to gdb and other tools, allowing you to debug using info you have recovered in IDA even when you cannot connect the IDA debugger.
-
-* [DWARF Plugin](https://hex-rays.com/contests/2009/IDADwarf-0.2/README): IDADWARF is an IDA plugin that imports DWARF debugging symbols into an IDA database. [Download](https://hex-rays.com/contests/2009/IDADwarf-0.2/idadwarf-0.2.zip)
-
-* [Dynamic IDA Enrichment](https://github.com/ynvb/DIE): DIE is an IDA python plugin designed to enrich IDA`s static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit.
+[CGEN](https://github.com/yifanlu/cgen) | CGEN with support for generating IDA Pro IDP modules. | 12/28/2015
+[Class Informer](http://sourceforge.net/projects/classinformer/) | Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type data. Places structure defs, names, labels, and comments to make more sense of class vftables ("Virtual Function Table") and make them read easier as an aid to reverse engineering. Creates a list window with found vftables for browsing. | 7/14/2018
+[codatify](https://github.com/devttys0/ida/tree/master/plugins/codatify) | Defines ASCII strings that IDA's auto analysis missed; defines functions/code that IDA's auto analysis missed; converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers) | 3/17/2017
+[c0demap](https://github.com/c0demap/codemap) | Codemap is a binary analysis tool for "run-trace visualization" provided as IDA plugin. | 7/1/2016
+[collabREate](https://github.com/cseagle/collabREate) | collabREate is a plugin for IDA Pro that is designed to provide a collaborative reverse engineering capability for multiple IDA users working on the same binary file. | 9/14/2018
+[Cortex M Firmware](https://github.com/duo-labs/idapython/blob/master/cortex_m_firmware.py) | The Cortex M Firmware module grooms an IDA Pro database containing firmware from an ARM Cortex M microcontroller. This module will annotate the firmware vector table, which contains a number of function pointers. This vector table annotation will cause IDA Pro to perform auto analysis against the functions these pointers point to. | 11/19/2017
+[Crowd Detox](https://github.com/CrowdStrike/CrowdDetox) | The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations. | 9/20/2013
+[Dalvik Header](https://github.com/strazzere/dalvik-header-plugin) | This is a simple Dalvik header plugin for IDA Pro | 1/21/2013
+[Data Xref Counter](https://github.com/onethawt/idapyscripts/blob/master/dataxrefcounter.py): Enumerates all of the the x-references in a specific segment and counts the frequency of usage. The plugin displays the data in QtTableWidget and lets the user filter and sort the references. You can also export the data to a CSV file. | 9/14/2015
+[Diaphora](https://github.com/joxeankoret/diaphora) | Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015. | 10/24/2018
+[Docker IDA](https://github.com/intezer/docker-ida) | Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts. | 11/19/2017
+[DOXBox Debugger](https://github.com/wjp/idados) | Eric Fry's IDA/DOSBox debugger plugin | 2/28/2016
+[DrGadget](https://github.com/patois/DrGadget) | This is an IDAPython plugin for the Interactive Disassembler for all your ROP experimentation needs. | 2/2/2017
+[DriverBuddy](https://github.com/nccgroup/DriverBuddy) | DriverBuddy is an IDA Python script to assist with the reverse engineering of Windows kernel drivers. | 11/22/2017
+[Drop](https://github.com/Riscure/DROP-IDA-plugin) | An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context. | 12/22/2017
+[dwarfexport](https://github.com/ALSchwalm/dwarfexport) | dwarfexport is an IDA Pro plugin that allows the user to export dwarf debug information. This can then be imported in to gdb and other tools, allowing you to debug using info you have recovered in IDA even when you cannot connect the IDA debugger. | 10/28/2017
+[Dynamic IDA Enrichment](https://github.com/ynvb/DIE) | DIE is an IDA python plugin designed to enrich IDA`s static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit. | 9/10/2015
 
 * [EFI Scripts](https://github.com/danse-macabre/ida-efitools): Some IDA scripts and tools to assist with reverse engineering EFI executables.
 
@@ -311,6 +287,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 * [SimplifyGraph](https://github.com/fireeye/SimplifyGraph): An IDA Pro plugin to assist with complex graphs.
 
 * [Simulator](https://github.com/nihilus/IDASimulator): IDASimulator is a plugin that extends IDA's conditional breakpoint support, making it easy to augment / replace complex executable code inside a debugged process with Python code.
+
+[Sk3wlDbg](https://github.com/cseagle/sk3wldbg) | Debugger plugin for IDA Pro backed by the Unicorn Engine | 9/1/2018
 
 * [Snippt Detector](https://github.com/zaironne/SnippetDetector): Snippet Detector is an IDA Python scripts project used to detect snippets from 32bit disassembled files. snippet is the word used to identify a generic sequence of instructions (at the moment a snippet is indeed a defined function). The aim of the tool is to collect many disassembled snippets inside a database for the detection process.
 
