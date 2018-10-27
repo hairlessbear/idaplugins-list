@@ -14,7 +14,6 @@ Plugin | Description | Last Updated
 ------- | ------------ | ---------------
 [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader) | IDA PRO Loader for 3DSX files | 3/1/2015
 [ActionScript 3](https://github.com/KasperskyLab/ActionScript3) | An ActionScript 3 processor module and Flash debugger plugin | 10/5/2018
-[Adobe Flash disassembler](https://hex-rays.com/contests/2009/SWF/ReadMe.txt) | The 2 plugins present in this archive will enable IDA to parse SWF files, load all SWF tags as segments for fast search and retrieval, parse all tags that can potentially contain ActionScript2 code, discover all such code(a dedicated processor module has been written for it) and even name the event functions acording to event handled in it (eg. OnInitialize). [Download](https://hex-rays.com/contests/2009/SWF/swf.zip) | 2009
 [alleycat](https://github.com/devttys0/ida/tree/master/plugins/alleycat) | Finds paths to a given code block inside a function; finds paths between two or more functions; generates interactive call graphs; fully scriptable | 8/17/2016
 [Amnesia](https://github.com/duo-labs/idapython/blob/master/amnesia.py) | Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions. | 11/19/2017
 [Android Debugging](https://github.com/techbliss/ADB_Helper_QT_Super_version) | This version have both support for native arm debugging via usb and sdk ADV manager. | 4/5/2015
@@ -145,6 +144,8 @@ Plugin | Description | Last Updated
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.
 
 * [IDA Patchwork](https://bitbucket.org/daniel_plohmann/idapatchwork): Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim.
+
+[IDA Pro SWF](https://github.com/nihilus/ida-pro-swf) | The 2 plugins present in this archive will enable IDA to parse SWF files, load all SWF tags as segments for fast search and retrieval, parse all tags that can potentially contain ActionScript2 code, discover all such code(a dedicated processor module has been written for it) and even name the event functions acording to event handled in it (eg. OnInitialize). | 1/24/2016
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.
 
